@@ -1,2 +1,2 @@
-"# WinterStudy_24-25"\
+# WinterStudy_24-25\
 winter study
