@@ -4,6 +4,10 @@ from transformers import AutoImageProcessor
 
 class Processor:
     def __init__(self):
+        '''
+        Attributes:
+            self.processs(): image_process=None이기 때문에 transform()에서 사용되는 것을 보장
+        '''
         self.processor_name = "google/vit-base-patch16-224-in21k"
         self.image_processor = None
         self.process()
